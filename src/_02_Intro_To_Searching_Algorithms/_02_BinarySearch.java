@@ -17,7 +17,15 @@ public class _02_BinarySearch {
     public static int binarySearch(int[] array, int start, int end, int value) {
         // 2. if end is greater than or equal to start, then
         //    do steps 3 - 6.
-
+if (end > start) {
+	int mid = end/2;
+	if (mid == value) {
+		return mid;
+	}
+	if (mid > value) {
+		return value;
+	}
+}
             // 3. create an integer called mid and set it equal
             //    to the half way point between start and end
 
