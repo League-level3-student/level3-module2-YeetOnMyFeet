@@ -21,6 +21,8 @@ class _03_SearchTest {
     public void testBinarySearch() {
         // 2. Use the assertEquals() method to test your binary search method
         //    remember that the array must be sorted
-        assertEquals(false, true);
+    	int [] array = {1,2,3};
+        assertEquals(0, _02_BinarySearch.binarySearch(array, 0, 2, 1));
+        //binarySearch(int[] array, int start, int end, int value)
     }
 }
