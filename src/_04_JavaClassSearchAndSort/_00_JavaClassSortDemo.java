@@ -39,7 +39,8 @@ public class _00_JavaClassSortDemo {
         for( int i : intArr ) {
             System.out.print(i + " ");
         }
-        System.out.println("\n");
+        
+        System.out.println("Here");
 
         /*
          * Sorting an ArrayList using the Collections class
